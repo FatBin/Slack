@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" style="padding-left:50px;margin-left:0px;margin-top: 80px">
+    <div class="row">
+        <div class="col-sm-6 ">
+            <div class="well well-lg" style="height: 450px;overflow: auto">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="panel-title" style="display: inline">
+                            workspace invitation
+                        </h3>
+                        <form action="/application" style="display: inline;float: right">
+                            <button type="submit" class="btn btn-primary" value="agree">agree</button>
+
+                            <button type="submit" class="btn btn-danger" value="reject" >reject</button>
+                        </form>
+
+                    </div>
+                    <div class="panel-body" style="overflow: hidden">
+                        <p>invitor: user</p>
+                        <p>workspace: name</p>
+                        <p>description:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success" onclick="function f() {
+              window.location.href='/applicationSecurity/personalPage';
+            }">return to homepage</button>
+        </div>
+        <div class="col-sm-6 ">
+            <div class="well well-lg" style="height: 450px;overflow: auto">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="panel-title" style="display: inline">
+                        title
+                        </h3>
+                        <form style="display: inline;float: right">
+                            <button type="submit" class="btn btn-primary" value="agree">agree</button>
+
+                            <button type="submit" class="btn btn-danger" value="reject" >reject</button>
+                        </form>
+
+                    </div>
+                    <div class="panel-body">
+                        contnet
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
